@@ -1,0 +1,20 @@
+<svg id="chat-button" preserveAspectRatio="none" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1083 272">
+	<defs>
+		<style>.cls-1-button{fill:#fff;stroke: #0f9623;stroke-width: 15px;}.text-button{font-size:85px;}.cls-2-button{fill:#0f9623;}.cls-3-button{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:5px;}</style>
+	</defs>
+	<g id="button-general">
+		<polyline class="cls-1-button" points="350.5 272 1083 272 1083 0 350.5 0"/>
+		<text x="500" y="160" fill="#0f9623" class="text-button">Let's chat!</text>
+		<g id="button-chat">
+			<polyline class="cls-2-button" points="350.5 0 0 0 0 272 350.5 272"/>
+			<g id="chat-bubble">
+				<path class="cls-3-button" d="M520.73,418.31h-95a12,12,0,0,0-12,12v73l12-11h95a12,12,0,0,0,12-12v-50A12,12,0,0,0,520.73,418.31Z" transform="translate(-338.5 -349.5)"/>
+				<g id="chat-lines">
+					<line class="cls-3-button" x1="106.23" y1="91.81" x2="171.74" y2="91.81"/>
+					<line class="cls-3-button" x1="106.46" y1="110.24" x2="151.23" y2="110.24"/>
+				</g>
+				<path class="cls-3-button" d="M542.39,468.81h58.84a12,12,0,0,1,12,12v73l-12-11h-95a12,12,0,0,1-12-12v-30" transform="translate(-338.5 -349.5)"/>
+			</g>
+		</g>
+	</g>
+</svg>

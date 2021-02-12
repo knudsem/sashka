@@ -1,0 +1,10 @@
+<svg id="progress" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 784.4 30">
+	<defs>
+		<style>.cls-1-line,.cls-2-line,.cls-3-line{fill:none;stroke-miterlimit:10;stroke-width:30px;}.cls-1-line{stroke:#007561;}.cls-2-line{stroke:#75a200;}.cls-3-line{stroke:#ffa700;}</style>
+	</defs>
+	<g id="bar">
+		<line id="blue" class="cls-1-line" x1="545.94" y1="15" x2="784.4" y2="15"/>
+		<line id="green" class="cls-2-line" x1="283.12" y1="15" x2="545.94" y2="15"/>
+		<line id="yellow" class="cls-3-line" y1="15" x2="283.12" y2="15"/>
+	</g>
+</svg>

@@ -1,0 +1,190 @@
+@import './variables.scss';
+
+#myMenu{
+    position: fixed;
+    top: 0;
+    background: rgba(0, 117, 97, 0.7);
+    height: 100%;
+    width: 240px;
+    backdrop-filter: blur(2px);
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+
+    &.open{
+        opacity: 1;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.close{
+        opacity: 0;
+        left: -240px;
+    }
+}
+
+#outofmenu{
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 240px;
+    width: calc(100% - 240px);
+    &.close{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+.button {
+    background: none;
+    border: 3px solid $lightGreen;
+    border-radius: 5px;
+    color: $white;
+    display: block;
+    font-size: calc(8px + 1vw);
+    font-weight: bold;
+    margin: 15% auto;
+    width: 100%;
+    padding: 15% 10%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+    &:after {
+        transition: all 0.3s;
+    }
+    &:before, &:after {
+        background: $lightGreen;
+        content: '';
+        position: absolute;
+        z-index: -1;
+    }
+    &:nth-child(1){
+        &:hover{
+            transform: scale(1.12);
+        }
+        &:hover:after {
+            height: 100%;
+        }
+        &:after {
+            height: 0;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+    }
+    &:nth-child(2){
+        &:hover{
+            transform: rotate(-180deg);
+            transition-duration: 0.9s;
+        }
+        &:hover:after {
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+        }
+        &:after {
+            height: 0;
+            left: 50%;
+            top: 50%;
+            width: 0;
+        }
+    }
+    &:nth-child(3){
+        &:hover{
+            transform: scale(1.12);
+            border-radius: 50px;
+        }
+        &:hover:after {
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            border-radius: 50px;
+        }
+        &:after {
+           height: 0;
+           left: 50%;
+           top: 50%;
+           width: 0;
+       }
+   }
+   &:nth-child(3){
+    &:hover{
+        transform: scale(1.12);
+        border-radius: 50px;
+    }
+    &:hover:after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        border-radius: 50px;
+    }
+    &:after {
+       height: 0;
+       left: 50%;
+       top: 50%;
+       width: 0;
+   }
+}
+&:nth-child(4){
+    &:hover:after {
+        width: 100%;
+    }
+    &:after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0;
+    }
+}
+&:nth-child(5){
+    overflow: hidden;
+    &:hover:after {
+        height: 100%;
+        width: 150%;
+    }
+    &:after {
+        height: 100%;
+        left: -50%;
+        top: 0;
+        transform: skew(50deg);
+        transition-duration: 0.9s;
+        transform-origin: top left;
+        width: 0;
+    }
+}
+&:nth-child(6){
+    &:hover{
+        box-shadow: 0 0 0 25px rgba(255, 167, 0, 0.5);
+        transform: skew(-20deg, -10deg);
+        color: $lightGreen;
+        transition-duration: 0.8s;
+    }
+}
+@media (max-width: $breakpoint){
+    font-size: calc(10px + 3vw);
+}
+}
+
+
+// .btn-1::after {
+//   height: 0;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+// }
+
+// .btn-1:hover:after {
+//   height: 100%;
+// }

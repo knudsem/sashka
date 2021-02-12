@@ -1,0 +1,88 @@
+@import './variables.scss';
+
+/* Structure */
+
+.d-flex{
+    display: flex;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.title-container{
+    overflow: hidden; 
+    margin: auto; 
+    padding-top: 15%;
+}
+
+/* Fonts */
+
+h1{
+    font-size: calc(15px + 3vw);
+    font-weight : Bold
+}
+
+h2{
+    width: 50%;
+    margin: auto;
+    padding-top: 8%;
+    font-size: calc(8px + 1vw);
+    font-weight: lighter;
+    opacity: 0;
+}
+
+
+/* SVG Styles */
+
+.svg-bar{
+    width: 40%;
+    & g {
+        transform: scaleX(0);
+        animation: progression 0.5s ease-in;
+        animation-delay: 0.3s;
+        animation-fill-mode: forwards;
+      }
+}
+
+.svg-letschat{
+    display: block;
+    margin: auto;
+    padding-top: 8%;
+}
+
+.title-from-left{
+  animation: fromLeft 0.8s ease-in forwards;
+}
+
+.title-from-right{
+  animation: fromRight 0.8s ease-in forwards;
+}
+
+.text-fadein{
+  animation: fadeIn 1.2s linear 1.2s forwards;
+}
+
+
+
+@media (max-width: $breakpoint) {
+    body > #root > div {
+    height: 100vh;
+}
+    body > #root {
+        height: 100%;
+        overflow: hidden;
+    }
+
+}
+
+.burger-container{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    transition: all .3s ;
+    &.open{
+        left: 180px;
+    }
+}

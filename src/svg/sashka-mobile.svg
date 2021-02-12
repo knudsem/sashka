@@ -1,0 +1,36 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-35 0 1329.11 2741.84" width="100%" height="100%" preserveAspectRatio="none" style="
+    overflow: hidden;
+">
+	<defs>
+		<style>.cls-1,.cls-6,.cls-7{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#ffa700;}.cls-4{fill:#bba800;}.cls-5{fill:#008746;}.cls-6{stroke:#008746;stroke-width:115px;}.cls-6,.cls-7{stroke-miterlimit:10;}.cls-7{stroke:#bba800;stroke-width:54px;}.cls-8{fill:#007561;}
+		</style>
+		<clipPath id="clip-path" transform="translate(77.36 81.84)">
+			<rect class="cls-1" y="1" width="1125" height="2435"/>
+		</clipPath>
+	</defs>
+	<g class="cls-2" style="
+    transform: scale(1.2);
+    transform-box: fill-box;
+    transform-origin:50% 50%;
+">
+		<g id="svg-mob">
+			<path id="background" class="cls-3" d="M1125,2435.55S1074.07,2660.72,562.5,2660C22.44,2659.24,0,2426.81,0,2426.81V1H1125Z" transform="translate(77.36 81.84)"/>
+			<circle id="top-right-big" class="cls-4" cx="1175.11" cy="110.07" r="110.07"/>
+			<circle id="top-right-small" class="cls-5" cx="1175.11" cy="110.07" r="42.64"/>
+			<path id="medium-wave" class="cls-6" d="M667.48-43.42s85.85,376.5,297.18,338.2C1142.24,262.6,1195,586,1195,586" transform="translate(77.36 81.84)"/>
+			<path id="small-wave" class="cls-7" d="M253.57,709.71s245.88,158.72,324.35,20.18c65.94-116.4,267.27,31.6,267.27,31.6" transform="translate(77.36 81.84)"/>
+			<circle id="bottom-right-big" class="cls-5" cx="1075.55" cy="652.97" r="45.86"/>
+			<circle id="bottom-right-small" class="cls-8" cx="1076.16" cy="652.97" r="18.76"/>
+			<circle id="bottom-left-big" data-name="bottom-left-big" class="cls-4" cx="110.07" cy="610.01" r="110.07"/>
+			<circle id="bottom-left-small" data-name="bottom-left-small" class="cls-5" cx="110.07" cy="610.01" r="42.64"/>
+			<circle id="bottom-right-big-2" data-name="bottom-right-big" class="cls-5" cx="379.07" cy="262.99" r="69.71"/>
+			<circle id="bottom-right-small-2" data-name="bottom-right-small" class="cls-8" cx="379.99" cy="262.99" r="28.51"/>
+			<circle id="bottom-right-big-3" data-name="bottom-right-big" class="cls-5" cx="1165.65" cy="1611.11" r="99.27"/>
+			<circle id="bottom-right-small-3" data-name="bottom-right-small" class="cls-8" cx="1166.97" cy="1611.11" r="40.6"/>
+			<circle id="bottom-left-big-2" data-name="bottom-left-big" class="cls-4" cx="1202.21" cy="1021.67" r="110.07"/>
+			<circle id="bottom-left-small-2" data-name="bottom-left-small" class="cls-5" cx="1202.21" cy="1021.67" r="42.64"/>
+			<circle id="bottom-right-big-4" data-name="bottom-right-big" class="cls-5" cx="109.21" cy="2490.67" r="99.27"/>4
+			<circle id="bottom-right-small-4" data-name="bottom-right-small" class="cls-8" cx="110.53" cy="2490.67" r="40.6"/>
+		</g>
+	</g>
+</svg>

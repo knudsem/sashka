@@ -1,0 +1,162 @@
+@keyframes fromRight {
+	from {
+    opacity: 1;
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0%);
+    opacity: 1;
+	}
+}
+
+@keyframes fromLeft {
+	from {
+    opacity: 1;
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0%);
+    opacity: 1;
+	}
+}
+
+@keyframes progression {
+	from {
+		    transform: scaleX(0);
+	}
+	to {
+		    transform: scaleX(1);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		    opacity: 0;
+	}
+	to {
+		    opacity: 1;
+	}
+}
+
+@keyframes buttonfade {
+  from {
+        transform: scaleX(0);
+  }
+  to {
+        transform: scaleX(1);
+  }
+}
+
+@keyframes backgroundFadeIn {
+  0% {
+    opacity: 1;
+    transform: scale(2, 0);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(2 ,2);
+  }
+}
+
+@keyframes wavingBig {
+  from {
+    opacity: 1;
+    stroke-dashoffset: 1300;
+  }
+    to {
+     opacity: 1;
+     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes wavingMedium {
+  from {
+    opacity: 1;
+    stroke-dashoffset: 1300;
+  }
+    to {
+     opacity: 1;
+     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes wavingSmall {
+  from {
+    opacity: 1;
+    stroke-dashoffset: 700;
+  }
+    to {
+     opacity: 1;
+     stroke-dashoffset: 1400;
+  }
+}
+
+@keyframes circling {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+    to {
+     opacity: 1;
+     transform: scale(1);
+  }
+}
+
+@keyframes ipkins {
+  from {
+    opacity: 1;
+    transform: scale(0) translate(0%, 8%);
+  }
+    to {
+     opacity: 1;
+     transform: scale(1) translate(0%, 0%);
+  }
+}
+
+@keyframes movingeyes {
+  0% { 
+    transform: translate(0%);
+  }
+  33% {
+    transform: translate(1.2%);
+  }
+  66% {
+    transform: translate(-1.2%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+
+@keyframes smile {
+  from {
+      transform: rotateX(85deg);
+    }
+  to {
+      transform: rotateX(0deg);
+    }
+}
+
+@keyframes smilingteeth {
+  from {
+      transform: rotateX(90deg);
+    }
+  to {
+      transform: rotateX(0deg);
+    }
+}
+
+@keyframes chatting {
+  from { 
+    opacity: 1;
+    stroke-dashoffset: 1000;
+  }
+  to {
+     opacity: 1;
+     stroke-dashoffset: 0;
+  }
+}
+
+#the-mask_svg__mask-svg path, #the-mask_svg__mask-svg circle, #the-mask_svg__mask-svg ellipse {
+  opacity: 0;
+}
